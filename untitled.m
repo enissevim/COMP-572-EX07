@@ -1,8 +1,8 @@
 close('all');    % start fresh
 
 % Read images (example pair)
-set2_far  = im2double(imread('stop.png')); 
-set2_near = im2double(imread('enter.png'));
+set2_far  = im2double(imread('fruit.jpg')); 
+set2_near = im2double(imread('dog.jpg'));
 
 % OPTIONAL: convert to grayscale
 % set2_far  = rgb2gray(set2_far);
